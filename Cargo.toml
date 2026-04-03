@@ -1,0 +1,14 @@
+[package]
+name = "linux-compat-nostd"
+version = "0.1.0"
+edition = "2021"
+authors = ["Matt Gates <matt@ridgecellrepair.com>"]
+license = "MIT OR Apache-2.0"
+description = "no_std Linux syscall compatibility layer — run Linux binaries on bare metal"
+repository = "https://github.com/suhteevah/linux-compat-nostd"
+keywords = ["linux", "syscall", "compatibility", "no_std", "bare-metal"]
+categories = ["no-std", "os", "embedded"]
+readme = "README.md"
+
+[dependencies]
+log = { version = "0.4", default-features = false }
